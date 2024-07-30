@@ -18,3 +18,5 @@ console.log(animal1)
 
 const animal2 = new Animal('cachorro', 'pequeno','branco','Belinha')
 console.log(animal2.nome)
+
+module.exports = Animal

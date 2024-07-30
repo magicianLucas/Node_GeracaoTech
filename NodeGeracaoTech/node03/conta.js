@@ -33,8 +33,10 @@ class Conta {
         if (valor > 0) {
             this.#saldo += valor;
             return true;
+        }else{
+            return console.log("Valor inválido"); 
         }
-        return false; 
+        
     }
 }
 
